@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/viewUsuario.css">
+    <title>Usuario</title>
+</head>
+<body>
+    <form id="form-login" class="login" action="">
+       <div>
+            <label for="">Usuario</label>
+            <input name="loginUsuario" type="text">
+        </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input name="loginContrasena" type="password">
+        </div> 
+        <button type="button">Iniciar sesión</button>
+        <p id="btnFormLogin" class="btnLogin">
+            ¿No tiene cuenta?   
+        </p>
+    </form>
+
+    <form id="form-registro"  class="register" action="">
+        <div>
+            <label for="">Nombre</label>
+            <input name="registroNombre" type="text">
+        </div>
+        <p id="parrafoValidaNombre" class="parrafoValidadorNombreRegistro">
+            El campo solo permite letras mayusculas
+        </p>
+        <div>
+            <label for="">Usuario</label>
+            <input name="usuarioRegistro" type="text">
+        </div>
+        <div>
+            <label for="">Correo</label>
+            <input name="correoRegistro"  type="email">
+        </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input name="contrasenaRegistro" type="password">
+        </div>
+        <div>
+            <label for="">Confirmar contraseña</label>
+            <input name="contrasenaConfirmarRegistro"  type="password">
+        </div>
+        <button type="button">Registrarse</button>
+        <p id="btnFormRegistro" class="btnRegistro">
+            ¿Ya tiene cuenta?
+        </p>
+    </form>
+    <script type="module" src="../src/js/script.js"></script>
+</body>
+</html>
